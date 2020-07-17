@@ -2,10 +2,11 @@
 Miscellanous macros I use in my work.  
 
 ## markTrackingArrow.ijm
+Draw an arrow with the head pointing at a spot defined by results table.
 Track cells or similar in time lapse data using the Manual Tracking plugin in Fiji.  
-This macro will draw an arrow with the head pointing at the spot you tracked.  
+(Any plugin works but the column names are based on the Manual Tracking plugin.)  
 Can do multiple tracks.  
-Rename Results table to "Results".  
+*Required:* Rename Results table to "Results".  
 Uses foregorund colour for arrow, draws onto slices (not overlay).
 
 ## oirToTif.ijm
