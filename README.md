@@ -14,3 +14,8 @@ Convert all oir files in single folder to tif files.
 Split stacks  to single images.  
 .oir is Olympus' image format.  
 *Requires:* [bioformats importer](https://www.openmicroscopy.org/bio-formats/downloads)
+
+## openToMontage.ijm
+Create composite image and montage of all open images.  
+Set scale, LUT and contrast of images before running macro.  
+Autosaves to same location.  
