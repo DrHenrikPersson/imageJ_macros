@@ -18,4 +18,5 @@ Split stacks  to single images.
 ## openToMontage.ijm
 Create composite image and montage of all open images.  
 Set scale, LUT and contrast of images before running macro.  
+Images added in the order they were opened.  
 Autosaves to same location.  
