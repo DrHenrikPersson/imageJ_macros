@@ -14,5 +14,6 @@ Uses foregorund colour for arrow, draws onto slices (not overlay).
 ## oirToTif.ijm
 Convert all oir files in single folder to tif files.
 Split stacks  to single images. 
+
 .oir is Olympus' image format.
-Requires: bioformats importer: https://www.openmicroscopy.org/bio-formats/downloads/
+Requires: [bioformats importer](https://www.openmicroscopy.org/bio-formats/downloads)
