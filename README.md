@@ -1,6 +1,12 @@
 # imageJ_macros
 Miscellanous macros I use in my work.  
 
+## colorBlindnessMacro.ijm
+Apply color blindness simulation using built in FIJI function.  
+Applies all color blindness simulation modes on selected image.  
+Results collected in labeled stack and displayed as a montage.  
+*Requires:* FIJI plugin "Color Blindness Simulation"  
+
 ## markTrackingArrow.ijm
 Draw an arrow with the head pointing at a spot defined by results table.
 Track cells or similar in time lapse data using the Manual Tracking plugin in Fiji.  
