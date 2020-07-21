@@ -6,7 +6,8 @@ Repository created 2020-07-14
 Added 2020-07-21  
 Apply all threshold methods to selected image to quickly check which is most suitable.  
 Store results in labeled stack.  
-Creates 5x4 montage. 17 threshold methods available (2020-07-21) 
+Creates 5x4 montage (2 blank tiles).  
+17 threshold methods available (2020-07-21).  
 Runs on selected image. Needs to be 8, 16, or 32 bit.  
 
 
