@@ -10,7 +10,11 @@ Creates 5x4 montage (2 blank tiles).
 17 threshold methods available (2020-07-21).  
 Runs on selected image. Needs to be 8, 16, or 32 bit.  
 
-
+## assignColour.ijm
+Added 2020-10-07  
+Assign LUT to all images in a folder based on filternames in their filenames.  
+Set scale based on objective magnification in filename. Hardcoded magnification based on user's microscope.  
+**WARNING:** Overwrites original files in folder, use on copied folder.  
 
 ## colorBlindnessMacro.ijm
 Added 2020-07-20  
@@ -33,7 +37,12 @@ Added 2020-07-16
 Convert all oir files in single folder to tif files.  
 Split stacks  to single images.  
 .oir is Olympus' image format.  
-*Requires:* [bioformats importer](https://www.openmicroscopy.org/bio-formats/downloads)
+*Required:* [bioformats importer](https://www.openmicroscopy.org/bio-formats/downloads)
+
+## openAutoContrast.ijm
+Added 2020-10-07  
+Run individual autocontrast on all open images. Tile images.  
+Gives overview of multiple files at once.  
 
 ## openToMontage.ijm
 Added 2020-07-16  
@@ -42,8 +51,8 @@ Set scale, LUT and contrast of images before running macro.
 Images added in the order they were opened.  
 Autosaves to same location.  
 
-## assignColour.ijm
-Added 2020-10-07  
-Assign LUT to all images in a folder based on filternames in their filenames.  
-Set scale based on objective magnification in filename. Hardcoded magnification based on user's microscope.  
-**WARNING:** Overwrites original files in folder, use on copied folder.  
+## saveAsColor.ijm  
+Added 2020-10-07
+Save all open images as colour versions.
+Option to add scalebar.
+**Warning:** Overwrites original files, use on copied folder.
