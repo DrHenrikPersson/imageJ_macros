@@ -41,3 +41,9 @@ Create composite image and montage of all open images.
 Set scale, LUT and contrast of images before running macro.  
 Images added in the order they were opened.  
 Autosaves to same location.  
+
+## assignColour.ijm
+Added 2020-10-07  
+Assign LUT to all images in a folder based on filternames in their filenames.  
+Set scale based on objective magnification in filename. Hardcoded magnification based on user's microscope.  
+**WARNING:** Overwrites original files in folder, use on copied folder.  
