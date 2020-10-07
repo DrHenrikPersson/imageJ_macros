@@ -54,5 +54,5 @@ Autosaves to same location.
 ## saveAsColor.ijm  
 Added 2020-10-07
 Save all open images as colour versions.
-Option to add scalebar.
-**Warning:** Overwrites original files, use on copied folder.
+Option to add scalebar.   
+**WARNING:** Overwrites original files, use on copied folder.
